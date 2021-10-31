@@ -205,6 +205,7 @@ final class LicenseSecurityManager extends SecurityManager
     @Override
     public void checkPermission(final Permission permission)
     {
+        Class.forName("java.lang.ClassLoader$1");
         if(permission.getName().equals(LicenseSecurityManager.SET_SECURITY_MANAGER_PERMISSION_STRING))
         {
             throw new SecurityException("Setting a SecurityManager other than the LicenseSecurityManager is " +
