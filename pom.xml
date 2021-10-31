@@ -246,7 +246,7 @@
                         </archive>
                     </configuration>
                 </plugin>
-                <plugin>
+<!--                <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>${version.plugin.javadoc}</version>
@@ -329,7 +329,7 @@
                         <version>true</version>
                         <windowtitle><![CDATA[${project.name} ${project.version} API Documentation]]></windowtitle>
                     </configuration>
-                </plugin>
+                </plugin> -->
             </plugins>
         </pluginManagement>
 
