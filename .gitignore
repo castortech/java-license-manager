@@ -3,3 +3,4 @@
 .travis.gpg
 target
 dist
+.github/workflows/
