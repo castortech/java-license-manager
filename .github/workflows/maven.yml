@@ -39,4 +39,4 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Build with Maven
-      run: mvn -B deploy --file pom.xml
+      run: mvn -B deploy -Dlicense.useDefaultExcludes=true --file pom.xml
