@@ -35,7 +35,7 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: "Build & test"
-      run: mvn -B package --file pom.xml |
+      run: mvn -B deploy --file pom.xml |
           echo "done!"
 
     - uses: "marvinpinto/action-automatic-releases@latest"
